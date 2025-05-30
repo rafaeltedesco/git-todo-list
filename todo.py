@@ -10,7 +10,7 @@ class Todo:
     due_date: date
     description: Optional[str] = None
     is_done: bool = False
-    # user_id: int
+    # user: int
 
 if __name__ == '__main__':
     todo = Todo(name='ler um livro', due_date=date(2025, 5, 20))
