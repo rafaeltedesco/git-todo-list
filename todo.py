@@ -14,3 +14,5 @@ class Todo:
 
 if __name__ == '__main__':
     todo = Todo(name='ler um livro', due_date=date(2025, 5, 20))
+    # Usage Example here!
+    print(todo)
