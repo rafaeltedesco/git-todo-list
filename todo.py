@@ -9,7 +9,7 @@ class Todo:
     name: str
     due_date: date
     description: Optional[str] = None
-    is_done: Optional[bool] = False
+    is_done: bool = False
     # user_id: int
 
 if __name__ == '__main__':
