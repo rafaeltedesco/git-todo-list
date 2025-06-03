@@ -20,6 +20,6 @@ INSERT IGNORE INTO users (
 ) VALUES (1, 'rafael', 'dev@rafael.com'), (2, 'gustavo', 'dev@gustavo.com');
 
 
-INSERT IGNORE tasks (
+INSERT IGNORE INTO tasks (
     id, short_description, user_id
 ) VALUES (1, 'some description', 1), (2 , 'some description test 2', 2);
