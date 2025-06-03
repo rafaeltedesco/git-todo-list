@@ -1,0 +1,10 @@
+services:
+  db:
+    image: mysql:8.0.42
+    env_file:
+      - .env
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+      - ./mysql/scripts:/docker-entrypoint-initdb.d
